@@ -14,11 +14,11 @@ import * as view from '../views/projects.views.js'
 function getProjects(req, res){
     const section = req.query.section;
     const technologies = req.query.technologies;
-    service.getProjects(section, technologies)
+
+    service.getProjects({section, technologies})
         .then(function(projects){
-            res.send(view.createProjectsSection(projects))
-        }
-    )
+            res.send(view.createProjectsSection(projects, section, technologies));
+        })
 }
 
 // Funcion para cargar un nuevo proyecto
