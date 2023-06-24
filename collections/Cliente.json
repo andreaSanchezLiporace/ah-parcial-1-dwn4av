@@ -7,26 +7,26 @@
     {
         "nombre": "Cliente 2",
         "foto": "https://picsum.photos/400/225",
-        "descripcion": "Lorem1."
+        "descripcion": "Lorem2."
     },
     {
         "nombre": "Cliente 3",
         "foto": "https://picsum.photos/400/225",
-        "descripcion": "Lorem1."
+        "descripcion": "Lorem3."
     },
     {
         "nombre": "Cliente 4",
         "foto": "https://picsum.photos/400/225",
-        "descripcion": "Lorem1."
+        "descripcion": "Lorem4."
     },
     {
         "nombre": "Cliente 5",
         "foto": "https://picsum.photos/400/225",
-        "descripcion": "Lorem1."
+        "descripcion": "Lorem5."
     },
     {
         "nombre": "Cliente 6",
         "foto": "https://picsum.photos/400/225",
-        "descripcion": "Lorem1."
+        "descripcion": "Lorem6."
     }
 ]

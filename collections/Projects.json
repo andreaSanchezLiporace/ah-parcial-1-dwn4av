@@ -5,9 +5,9 @@
         "link": "http://miweb.com/projectoMobile1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "PHP",
-        "Vue",
-        "Laravel"
+            "php",
+            "vue",
+            "laravel"
         ],
         "section": "mobile"
     },
@@ -17,8 +17,8 @@
         "link": "http://miweb.com/projectoMobile2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "Vue",
-        "Laravel"
+            "vue",
+            "laravel"
         ],
         "section": "mobile"
     },
@@ -28,12 +28,11 @@
         "link": "http://miweb.com/projectoMobile3.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "PHP",
-        "Vue",
-        "Javascript"
+            "php",
+            "vue",
+            "javascript"
         ],
-        "section": "mobile",
-        "deleted": true
+        "section": "mobile"
     },
     {
         "name": "Mobile 4",
@@ -41,8 +40,8 @@
         "link": "http://miweb.com/projectoMobile4.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "Vue",
-        "Javascript"
+            "vue",
+            "javascript"
         ],
         "section": "mobile",
         "client_id": ""
@@ -53,10 +52,10 @@
         "link": "http://miweb.com/projectoLandingPage1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "HTML5",
-        "CSS",
-        "Javascript",
-        "Bootstrap"
+            "html",
+            "css",
+            "javascript",
+            "bootstrap"
         ],
         "section": "landing"
     },
@@ -66,9 +65,9 @@
         "link": "http://miweb.com/projectoLandingPage2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "HTML5",
-        "CSS",
-        "Javascript"
+            "html",
+            "css",
+            "javascript"
         ],
         "section": "landing"
     },
@@ -78,9 +77,9 @@
         "link": "http://miweb.com/projectoWebApp1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "Javascript",
-        "Bootstrap",
-        "Ajax"
+            "javascript",
+            "bootstrap",
+            "ajax"
         ],
         "section": "webapp"
     },
@@ -90,9 +89,9 @@
         "link": "http://miweb.com/projectoWebApp2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "Javascript",
-        "Bootstrap",
-        "Ajax"
+            "javascript",
+            "bootstrap",
+            "ajax"
         ],
         "section": "webapp"
     },
@@ -102,10 +101,10 @@
         "link": "http://miweb.com/projectoEcommerce1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "HTML5",
-        "CSS",
-        "Javascript",
-        "Bootstrap"
+            "html",
+            "css",
+            "javascript",
+            "bootstrap"
         ],
         "section": "ecommerce"
     },
@@ -115,10 +114,9 @@
         "link": "http://miweb.com/projectoEcommerce2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "HTML5",
-        "CSS",
-        "Javascript",
-        "Bootstrap"
+            "html",
+            "css",
+            "javascript"
         ],
         "section": "ecommerce"
     },
@@ -128,8 +126,8 @@
         "link": "http://miweb.com/projectoGames1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "C++",
-        "R"
+            "c",
+            "r"
         ],
         "section": "games"
     },
@@ -139,8 +137,8 @@
         "link": "http://miweb.com/projectoGames2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "C++",
-        "R"
+            "c",
+            "r"
         ],
         "section": "games"
     },
@@ -150,9 +148,8 @@
         "link": "http://miweb.com/projectoGames3.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "C++",
-        "R",
-        "Phyton"
+            "r",
+            "phyton"
         ],
         "section": "games"
     },
@@ -162,9 +159,8 @@
         "link": "http://miweb.com/projectoGames4.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-        "C++",
-        "R",
-        "Phyton"
+            "r",
+            "phyton"
         ],
         "section": "games"
     }
