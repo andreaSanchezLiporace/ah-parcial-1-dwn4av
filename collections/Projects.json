@@ -1,0 +1,171 @@
+[
+    {
+        "name": "Mobile 1",
+        "description": "Lorem1.",
+        "link": "http://miweb.com/projectoMobile1.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "PHP",
+        "Vue",
+        "Laravel"
+        ],
+        "section": "mobile"
+    },
+    {
+        "name": "Mobile 2",
+        "description": "Lorem2.",
+        "link": "http://miweb.com/projectoMobile2.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "Vue",
+        "Laravel"
+        ],
+        "section": "mobile"
+    },
+    {
+        "name": "Mobile 3",
+        "description": "Lorem3.",
+        "link": "http://miweb.com/projectoMobile3.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "PHP",
+        "Vue",
+        "Javascript"
+        ],
+        "section": "mobile",
+        "deleted": true
+    },
+    {
+        "name": "Mobile 4",
+        "description": "Lorem4.",
+        "link": "http://miweb.com/projectoMobile4.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "Vue",
+        "Javascript"
+        ],
+        "section": "mobile",
+        "client_id": ""
+    },
+    {
+        "name": "Landing Page 1",
+        "description": "Lorem5.",
+        "link": "http://miweb.com/projectoLandingPage1.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "HTML5",
+        "CSS",
+        "Javascript",
+        "Bootstrap"
+        ],
+        "section": "landing"
+    },
+    {
+        "name": "Landing Page 2",
+        "description": "Lorem6.",
+        "link": "http://miweb.com/projectoLandingPage2.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "HTML5",
+        "CSS",
+        "Javascript"
+        ],
+        "section": "landing"
+    },
+    {
+        "name": "Web App 1",
+        "description": "Lorem7.",
+        "link": "http://miweb.com/projectoWebApp1.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "Javascript",
+        "Bootstrap",
+        "Ajax"
+        ],
+        "section": "webapp"
+    },
+    {
+        "name": "Web App 2",
+        "description": "Lorem8.",
+        "link": "http://miweb.com/projectoWebApp2.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "Javascript",
+        "Bootstrap",
+        "Ajax"
+        ],
+        "section": "webapp"
+    },
+    {
+        "name": "E-Commerce 1",
+        "description": "Lorem9.",
+        "link": "http://miweb.com/projectoEcommerce1.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "HTML5",
+        "CSS",
+        "Javascript",
+        "Bootstrap"
+        ],
+        "section": "ecommerce"
+    },
+    {
+        "name": "E-Commerce 2",
+        "description": "Lorem10.",
+        "link": "http://miweb.com/projectoEcommerce2.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "HTML5",
+        "CSS",
+        "Javascript",
+        "Bootstrap"
+        ],
+        "section": "ecommerce"
+    },
+    {
+        "name": "Games 1",
+        "description": "Lorem11.",
+        "link": "http://miweb.com/projectoGames1.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "C++",
+        "R"
+        ],
+        "section": "games"
+    },
+    {
+        "name": "Games 2",
+        "description": "Lorem12.",
+        "link": "http://miweb.com/projectoGames2.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "C++",
+        "R"
+        ],
+        "section": "games"
+    },
+    {
+        "name": "Games 3",
+        "description": "Lorem13.",
+        "link": "http://miweb.com/projectoGames3.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "C++",
+        "R",
+        "Phyton"
+        ],
+        "section": "games"
+    },
+    {
+        "name": "Games 4",
+        "description": "Lorem14.",
+        "link": "http://miweb.com/projectoGames4.com",
+        "img": "https://picsum.photos/400/225",
+        "technologies": [
+        "C++",
+        "R",
+        "Phyton"
+        ],
+        "section": "games"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Cliente 1",
+        "foto": "https://picsum.photos/400/225",
+        "descripcion": "Lorem1."
+    },
+    {
+        "nombre": "Cliente 2",
+        "foto": "https://picsum.photos/400/225",
+        "descripcion": "Lorem1."
+    },
+    {
+        "nombre": "Cliente 3",
+        "foto": "https://picsum.photos/400/225",
+        "descripcion": "Lorem1."
+    },
+    {
+        "nombre": "Cliente 4",
+        "foto": "https://picsum.photos/400/225",
+        "descripcion": "Lorem1."
+    },
+    {
+        "nombre": "Cliente 5",
+        "foto": "https://picsum.photos/400/225",
+        "descripcion": "Lorem1."
+    },
+    {
+        "nombre": "Cliente 6",
+        "foto": "https://picsum.photos/400/225",
+        "descripcion": "Lorem1."
+    }
+]
