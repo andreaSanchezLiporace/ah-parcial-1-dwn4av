@@ -1,8 +1,8 @@
 /**
  * Este archivo contiene todas las funciones que devuelven la información de los proyectos con la api
- * Filtros pryectos: se aplican del lado del servidor -> archivo projects.services.js de la carpeta services
+ * Filtros pryectos: se aplican del lado del servidor en el archivo projects.services.js de la carpeta services
  * Importo el módulo completo de servicios de proyectos
- */
+*/
 import * as service from '../../services/projects.services.js'
 
 /**

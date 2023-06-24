@@ -13,9 +13,9 @@
 */
 import express from 'express'
 import ProjectRoute from './routes/projects.routes.js'
+import ClientRoute from './routes/clients.routes.js'
 import ProjectRouteApi from './api/routes/projects.api.routes.js'
-// import ClientRoute from './routes/clients.routes.js'
-// import ClientRouteApi from './api/routes/clients.api.routes.js'
+import ClientRouteApi from './api/routes/clients.api.routes.js'
 
 /**
  * Creo la instancia de la aplicacion express 
@@ -44,7 +44,9 @@ app.use('/', express.static('public'))
  * Uso método `.use()`: para asociar los módulos de rutas importados a las rutas correspondientes.
 */
 app.use('/', ProjectRoute)
+app.use('/', ClientRoute)
 app.use('/api', ProjectRouteApi) 
+app.use('/api', ClientRouteApi) 
 
 /**
  * Configuración del servidor.
