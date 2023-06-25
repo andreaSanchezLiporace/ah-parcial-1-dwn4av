@@ -19,11 +19,9 @@ import ClientRouteApi from './api/routes/clients.api.routes.js'
 
 /**
  * Creo la instancia de la aplicacion express 
+ * Guardo una variable el puerto en el que se ejecutará el servidor.
 */
 const app = express();
-/**
- * Guardo en la variable port, el puerto en el que se ejecutará el servidor para que a futuro sea más facil de manejar este dato, sin tener que tocar la configuracion del servidor.
-*/ 
 const port = 2222;
 
 /**
@@ -33,7 +31,7 @@ app.use('/api', express.json())
 
 /**
  * Configuración de recursos estáticos.
- * Se utiliza el middleware express.static para servir los archivos estáticos ubicados en la carpeta 'public' que se encuentra en el directorio raíz del proyecto (entonces, cualquier solicitud a la ruta raíz ('/') o cualquier otra ruta coincidente buscará y servirá archivos estáticos desde la carpeta 'public').
+ * Se utiliza el middleware express.static para servir los archivos estáticos. Entonces, cualquier solicitud a la ruta raíz ('/') o cualquier otra ruta coincidente buscará y servirá archivos estáticos desde la carpeta 'public'.
  */
 app.use('/', express.static('public'))
 

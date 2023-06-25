@@ -7,14 +7,14 @@
 */
 import { MongoClient } from "mongodb";
 /**
- * Creo variables para manejar los datos de la ruta del servidor, del cliente de Mongo y el nombre de la base para que a futuro sea más facil de manejar el dato, sin tener que tocar el codigo que se encarga de la conexión.
+ * Creo variables para manejar los datos de la ruta del servidor, del cliente de Mongo y la BBDD
  * @type {mongoServerLocation} -> Ruta del servidor de MongoDB
  * @type {MongoClient} -> Cliente de MongoDB para conectar a la base de datos.
  * @type {myDatabase} -> Base de datos a la cual preciso conectar
 */
 const mongoServerLocation = "mongodb://127.0.0.1:27017";
 const client = new MongoClient(mongoServerLocation);
-const myDatabase = client.db("AH20231CP1");
+let myDatabase;
 /** 
  * Conexión a la BBDD:
  * Uso 'client.connect()': Método asincrónico para establecer la conexión con el servidor de MongoDB. Devuelve una promesa que se resuelve cuando la conexión se establece con éxito.
@@ -24,7 +24,7 @@ const myDatabase = client.db("AH20231CP1");
 client.connect()
     .then(function(){
         console.log("Conexión con BBDD exitosa");
-        const db = myDatabase;
+        myDatabase = client.db("AH20231CP1");
     })
     .catch(function(){
         console.log("No fue posible conectarse a la BBDD");
