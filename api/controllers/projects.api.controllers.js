@@ -22,6 +22,7 @@ function getProjects(req, res){
 // Funcion para cargar un nuevo proyecto
 function insertOneProject(req, res){
     const project = {
+        //client_id: req.body.client_id,
         name: req.body.name,
         description: req.body.description,
         link: req.body.link,

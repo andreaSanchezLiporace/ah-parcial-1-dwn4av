@@ -31,6 +31,16 @@ function insertOneClient(req, res){
         })
 }
 
+/**
+function getClientProjects(req, res){
+    const idClient = req.params.idClient
+    service.getClientProjects (idClient)
+    .then(function(projects){
+        res.status(200).json(projects);
+    })
+}
+
+*/
 export {
     getClients,
     insertOneClient,

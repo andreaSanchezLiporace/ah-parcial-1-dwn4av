@@ -15,6 +15,7 @@ const route = Router()
 */
 route.get('/clients', controller.getClients)
 route.post('/clients', controller.insertOneClient)
+//route.get('/clients/:idClient/projects', controller.getClientProjects)
 
 /** Exporto por defecto el objeto de rutas. */
 export default route
