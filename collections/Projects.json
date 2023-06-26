@@ -1,128 +1,91 @@
 [
     {
-        "name": "Mobile 1",
-        "description": "Lorem1.",
-        "link": "http://miweb.com/projectoMobile1.com",
+        "name": "Librart Mobile",
+        "description": "Aplicación móvil. Permite a los usuarios explorar el catálogo de libros, realizar compras y recibir recomendaciones personalizadas.",
+        "link": "https://github.com/librart/mobile-app",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "javascript",
-            "vue"
-        ],
+        "technologies": ["javascript", "vue"],
         "section": "mobile",
         "clientId": "64976735022ec0a4758c92f2"
     },
     {
-        "name": "Mobile 2",
-        "description": "Lorem2.",
-        "link": "http://miweb.com/projectoMobile2.com",
+        "name": "Librart Mobile 2.0",
+        "description": "Aplicación móvil mejorada. Incluye funcionalidades adicionales como seguimiento de pedidos y notificaciones de eventos especiales.",
+        "link": "https://github.com/librart/mobile-app-v2",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "vue"
-        ],
+        "technologies": ["vue"],
         "section": "mobile",
         "clientId": "64976735022ec0a4758c92f2"
     },
     {
-        "name": "Landing Page 1",
-        "description": "Lorem3.",
-        "link": "http://miweb.com/projectoLandingPage1.com",
+        "name": "Librart Landing Page",
+        "description": "Página de aterrizaje para una librería. Presenta información sobre la librería, promociones especiales y formulario de suscripción al boletín informativo.",
+        "link": "https://github.com/librart/landing-page",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "html",
-            "css",
-            "javascript",
-            "bootstrap"
-        ],
+        "technologies": ["html", "css", "javascript", "bootstrap"],
         "section": "landing",
         "clientId": "64976735022ec0a4758c92f2"
     },
     {
-        "name": "Landing Page 2",
-        "description": "Lorem4.",
-        "link": "http://miweb.com/projectoLandingPage2.com",
+        "name": "Elegance Landing Page",
+        "description": "Página de aterrizaje moderna y elegante para un estudio jurídico. Destaca los servicios y productos ofrecidos por el cliente y fomenta la interacción con los visitantes.",
+        "link": "https://github.com/nuevo-cliente/landing-page",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "html",
-            "css",
-            "javascript"
-        ],
+        "technologies": ["html", "css", "javascript"],
         "section": "landing",
         "clientId": "64976735022ec0a4758c92f5"
     },
     {
-        "name": "Web App 1",
-        "description": "Lorem5.",
-        "link": "http://miweb.com/projectoWebApp1.com",
+        "name": "Web App Pro",
+        "description": "Aplicación web completa. Ofrece funcionalidades avanzadas, como gestión de productos, carrito de compras y panel de administración.",
+        "link": "https://github.com/cliente3/web-app",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "javascript",
-            "bootstrap",
-            "ajax"
-        ],
+        "technologies": ["javascript", "bootstrap", "ajax"],
         "section": "webapp",
         "clientId": "64976735022ec0a4758c92f3"
     },
     {
-        "name": "Web App 2",
-        "description": "Lorem6.",
-        "link": "http://miweb.com/projectoWebApp2.com",
+        "name": "Powerful Web App",
+        "description": "Potente aplicación web. Permite a los usuarios realizar seguimiento de sus actividades, gestionar tareas y colaborar en proyectos.",
+        "link": "https://github.com/cliente4/web-app",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "javascript",
-            "bootstrap",
-            "ajax"
-        ],
+        "technologies": ["javascript", "bootstrap", "ajax"],
         "section": "webapp",
         "clientId": "64976735022ec0a4758c92f4"
     },
     {
-        "name": "E-Commerce 1",
-        "description": "Lorem7.",
-        "link": "http://miweb.com/projectoEcommerce1.com",
+        "name": "E-Commerce Pro",
+        "description": "Tienda en línea profesional. Proporciona una experiencia de compra intuitiva, opciones de pago seguras y opciones de envío flexibles.",
+        "link": "https://github.com/cliente3/e-commerce",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "html",
-            "css",
-            "javascript",
-            "bootstrap"
-        ],
+        "technologies": ["html", "css", "javascript", "bootstrap"],
         "section": "ecommerce",
         "clientId": "64976735022ec0a4758c92f3"
     },
     {
-        "name": "E-Commerce 2",
-        "description": "Lorem8.",
-        "link": "http://miweb.com/projectoEcommerce2.com",
+        "name": "E-Commerce Deluxe",
+        "description": "Tienda en línea de lujo. Destaca los productos y ofrece una experiencia de compra atractiva para los visitantes.",
+        "link": "https://github.com/cliente5/e-commerce",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "html",
-            "css",
-            "javascript"
-        ],
+        "technologies": ["html", "css", "javascript"],
         "section": "ecommerce",
         "clientId": "64976735022ec0a4758c92f5"
     },
     {
-        "name": "Games 1",
-        "description": "Lorem9.",
-        "link": "http://miweb.com/projectoGames1.com",
+        "name": "GameZone",
+        "description": "Juego emocionante donde los jugadores deben superar diferentes desafíos y acumular la mayor puntuación posible.",
+        "link": "https://github.com/cliente4/game",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "c",
-            "r"
-        ],
+        "technologies": ["c", "r"],
         "section": "games",
         "clientId": "64976735022ec0a4758c92f4"
     },
     {
-        "name": "Games 4",
-        "description": "Lorem14.",
-        "link": "http://miweb.com/projectoGames4.com",
+        "name": "Multiplayer Battles",
+        "description": "Juego multijugador que permite a los jugadores competir entre sí y demostrar sus habilidades en un entorno virtual.",
+        "link": "https://github.com/cliente6/game",
         "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "r",
-            "phyton"
-        ],
+        "technologies": ["r", "phyton"],
         "section": "games",
         "clientId": "64976735022ec0a4758c92f6"
     }
