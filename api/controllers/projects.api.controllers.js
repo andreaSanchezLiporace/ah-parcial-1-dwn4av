@@ -22,13 +22,13 @@ function getProjects(req, res){
 // Funcion para cargar un nuevo proyecto
 function insertOneProject(req, res){
     const project = {
-        //client_id: req.body.client_id,
         name: req.body.name,
         description: req.body.description,
         link: req.body.link,
         img: req.body.img,
         technologies: req.body.technologies,
-        section: req.body.section
+        section: req.body.section,
+        clientId: req.params.idClient
     }
     // Llama al servicio que crea el producto y le devuelve el estado 201 (creado)
     service.insertOneProject(project)

@@ -1,10 +1,11 @@
 /**
  * Este archivo contiene todas las funciones que se encargan de interactuar con la coleccion 'Projects' de la BBDD
- * Importo los módulos necesarios para trabajar con la base de datos MongoDB.
- * ObjectId para trabajar con el dato _id de la colección de proyectos
- * @module mongodb -> Mongo Client
+ * Importo los módulos necesarios:
+ * @module mongodb -> para trabajar con la base de datos MongoDB.
+ * @module ObjectId -> para trabajar con el dato _id de la colección de proyectos
  */
 import { MongoClient, ObjectId } from 'mongodb';
+
 /**
  * @type {MongoClient} -> Cliente de MongoDB para conectar a la base de datos.
  * @type {Db} -> Base de datos a la cual preciso conectar

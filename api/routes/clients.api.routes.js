@@ -5,7 +5,7 @@
 */
 import { Router } from 'express'
 import * as controller from '../controllers/clients.api.controllers.js'
-import * as controller from '../controllers/projects.api.controllers.js'
+import * as controllerProjects from '../controllers/projects.api.controllers.js'
 
 /** Creo el objeto para manipular las rutas */
 const route = Router()
@@ -18,8 +18,8 @@ const route = Router()
 */
 route.get('/clients', controller.getClients)
 route.post('/clients', controller.insertOneClient)
-route.get('/clients/:idClient/projects', controller.getClientsProjects)
-route.post('/clients/:idClient/projects', controller.insertOneProject)
+route.get('/clients/:idClient/projects', controller.getClientProjects)
+route.post('/clients/:idClient/projects', controllerProjects.insertOneProject)
 
 /** Exporto por defecto el objeto de rutas. */
 export default route

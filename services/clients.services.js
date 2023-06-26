@@ -1,9 +1,11 @@
 /**
  * Este archivo contiene todas las funciones que se encargan de interactuar con la coleccion 'Cliente' de la BBDD
- * Importo el módulo necesario para trabajar con la base de datos MongoDB.
- * @module mongodb -> Mongo Client
+ * Importo los módulos necesarios:
+ * @module mongodb -> para trabajar con la base de datos MongoDB.
+ * @module ObjectId -> para trabajar con el dato _id de la colección de proyectos
  */
-import { MongoClient } from 'mongodb';
+import { MongoClient, ObjectId } from 'mongodb';
+
 /**
  * @type {MongoClient} -> Cliente de MongoDB para conectar a la base de datos.
  * @type {Db} -> Base de datos a la cual preciso conectar
@@ -31,8 +33,14 @@ async function insertOneClient(client) {
     return client;
 }
 
+async function getClientProjects(clientId) {
+    await clientDataBase.connect();
+    return db.collection("Projects").find({ clientId: new ObjectId(clientId) }).toArray();
+}
+
 // Exporto todas las funciones para poder usarlas en el programa
 export {
     getClients,
-    insertOneClient
+    insertOneClient,
+    getClientProjects
 }
