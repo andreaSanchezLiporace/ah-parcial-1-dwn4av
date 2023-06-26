@@ -1,0 +1,100 @@
+FRONT-PROYECTOS:
+    http://localhost:2222/projects
+
+ * Por section:
+ - http://localhost:2222/projects/?section=mobile
+ - http://localhost:2222/projects/?section=landing
+ - http://localhost:2222/projects/?section=webapp
+ - http://localhost:2222/projects/?section=ecommerce
+ - http://localhost:2222/projects/?section=games
+
+ * Por un tecnología (tres opciones de todas las posibles):
+ - http://localhost:2222/projects/?technologies=javascript
+ - http://localhost:2222/projects/?technologies=bootstrap
+ - http://localhost:2222/projects/?technologies=phyton
+
+ * Por mas de una tecnología (dos opciones de todas las posibles):
+ - http://localhost:2222/projects/?technologies=javascript;bootstrap
+ - http://localhost:2222/projects/?technologies=html;css
+
+ * Por section y una tecnología
+ - http://localhost:2222/projects/?section=mobile&technologies=vue
+ 
+ * Por section y dos tecnologías
+ - http://localhost:2222/projects/?section=landing&technologies=javascript;bootstrap
+
+
+
+API-PROYECTOS:
+ @route GET /projects - Obtiene todos los proyectos:
+    http://localhost:2222/api/projects
+
+ * Por section:
+ - http://localhost:2222/api/projects/?section=mobile
+ - http://localhost:2222/api/projects/?section=landing
+ - http://localhost:2222/api/projects/?section=webapp
+ - http://localhost:2222/api/projects/?section=ecommerce
+ - http://localhost:2222/api/projects/?section=games
+
+ * Por un tecnología (tres opciones de todas las posibles):
+ - http://localhost:2222/api/projects/?technologies=javascript
+ - http://localhost:2222/api/projects/?technologies=bootstrap
+ - http://localhost:2222/api/projects/?technologies=phyton
+
+ * Por mas de una tecnología (dos opciones de todas las posibles):
+ - http://localhost:2222/api/projects/?technologies=javascript;bootstrap
+ - http://localhost:2222/api/projects/?technologies=html;css
+
+ * Por section y una tecnología
+ - http://localhost:2222/api/projects/?section=mobile&technologies=vue
+ 
+ * Por section y dos tecnologías
+ - http://localhost:2222/api/projects/?section=landing&technologies=javascript;bootstrap
+
+ @route PUT /projects/:idProject - Reemplaza por completo un proyecto:
+ - http://localhost:2222/api/projects/64991c86022ec0a4758c9304
+
+ @route PATCH /projects/:idProject - Actualiza un dato de un proyecto:
+ - http://localhost:2222/api/projects/64991c86022ec0a4758c9304
+
+ @route DELETE /projects/:idProject - Elimina un proyecto:
+ - http://localhost:2222/api/projects/64991c86022ec0a4758c9304
+
+
+
+FRONT-CLIENTES:
+ @route GET /clients - Obtiene todos los clientes:
+ - http://localhost:2222/clients
+
+
+
+API-CLIENTES:
+ @route GET /clients - Obtiene todos los clientes.
+ - http://localhost:2222/api/clients
+
+ @route POST /clients - Crea un cliente.
+ - http://localhost:2222/api/clients
+   {
+      "nombre": "Cliente 7",
+      "foto": "https://picsum.photos/400/225",
+      "descripcion": "Lorem7."
+   }
+
+ @route GET /clients/:idClient/projects - Obtiene los proyectos de un cliente:
+ - http://localhost:2222/api/clients/64976735022ec0a4758c92f2/projects
+
+ @route POST /clients/:idClient/projects - Crea un proyecto con la referencia a un cliente:
+ - http://localhost:2222/api/clients/64976735022ec0a4758c92f2/projects
+   {
+      "name": "Mobile Prueba",
+      "description": "Lorem1.",
+      "link": "http://miweb.com/projectoMobile1.com",
+      "img": "https://picsum.photos/400/225",
+      "technologies": [
+         "php",
+         "vue",
+         "laravel"
+      ],
+      "section": "mobile",
+      "clientId": "64976735022ec0a4758c92f2"
+   }
