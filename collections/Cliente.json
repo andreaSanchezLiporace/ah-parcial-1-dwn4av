@@ -1,48 +1,50 @@
-[{
-  "_id": {
-    "$oid": "64976735022ec0a4758c92f2"
+[
+  {
+    "_id": {
+      "$oid": "64976735022ec0a4758c92f2"
+    },
+    "nombre": "Librart",
+    "foto": "https://picsum.photos/400/225",
+    "descripcion": "Librart es una librería artística especializada en la venta de libros, materiales y herramientas para artistas de todas las disciplinas. Con una amplia selección de títulos y productos de calidad, Librart es el lugar ideal para los amantes del arte que buscan inspiración y recursos."
   },
-  "nombre": "Cliente 1",
-  "foto": "https://picsum.photos/400/225",
-  "descripcion": "Lorem1."
-},
-{
-  "_id": {
-    "$oid": "64976735022ec0a4758c92f3"
+  {
+    "_id": {
+      "$oid": "64976735022ec0a4758c92f3"
+    },
+    "nombre": "Arance Libros",
+    "foto": "https://picsum.photos/400/225",
+    "descripcion": "Arance Libros es una reconocida librería que ofrece una amplia variedad de libros de diferentes géneros y temáticas. Desde novelas hasta libros de no ficción, Arance Libros se dedica a promover la lectura y brindar un espacio acogedor para los amantes de los libros."
   },
-  "nombre": "Cliente 2",
-  "foto": "https://picsum.photos/400/225",
-  "descripcion": "Lorem2."
-},
-{
-  "_id": {
-    "$oid": "64976735022ec0a4758c92f4"
+  {
+    "_id": {
+      "$oid": "64976735022ec0a4758c92f4"
+    },
+    "nombre": "Tienda El Encanto",
+    "foto": "https://picsum.photos/400/225",
+    "descripcion": "Tienda El Encanto es un comercio especializado en productos para el hogar y regalos originales. Con una cuidada selección de artículos decorativos, utensilios de cocina y accesorios para el hogar, Tienda El Encanto ofrece productos de calidad que añaden estilo y encanto a cualquier espacio."
   },
-  "nombre": "Cliente 3",
-  "foto": "https://picsum.photos/400/225",
-  "descripcion": "Lorem3."
-},
-{
-  "_id": {
-    "$oid": "64976735022ec0a4758c92f5"
+  {
+    "_id": {
+      "$oid": "64976735022ec0a4758c92f5"
+    },
+    "nombre": "Marta García",
+    "foto": "https://picsum.photos/400/225",
+    "descripcion": "Marta García es una talentosa artista visual que se especializa en pintura al óleo. Sus obras capturan la belleza de la naturaleza y transmiten emociones a través del uso de colores vibrantes y pinceladas expresivas. Marta ha expuesto su trabajo en galerías de arte de renombre y ha recibido reconocimientos por su creatividad y talento."
   },
-  "nombre": "Cliente 4",
-  "foto": "https://picsum.photos/400/225",
-  "descripcion": "Lorem4."
-},
-{
-  "_id": {
-    "$oid": "64976735022ec0a4758c92f6"
+  {
+    "_id": {
+      "$oid": "64976735022ec0a4758c92f6"
+    },
+    "nombre": "Laura Pérez",
+    "foto": "https://picsum.photos/400/225",
+    "descripcion": "Laura Pérez es una abogada con amplia experiencia en derecho civil y familiar. Apasionada por la justicia y la defensa de los derechos de sus clientes, Laura se dedica a brindar asesoramiento legal integral y representación en casos de divorcio, adopción, herencias y otros asuntos relacionados con el ámbito legal familiar."
   },
-  "nombre": "Cliente 5",
-  "foto": "https://picsum.photos/400/225",
-  "descripcion": "Lorem5."
-},
-{
-  "_id": {
-    "$oid": "64976735022ec0a4758c92f7"
-  },
-  "nombre": "Cliente 6",
-  "foto": "https://picsum.photos/400/225",
-  "descripcion": "Lorem6."
-}]
+  {
+    "_id": {
+      "$oid": "64976735022ec0a4758c92f7"
+    },
+    "nombre": "Carlos Rodríguez",
+    "foto": "https://picsum.photos/400/225",
+    "descripcion": "Carlos Rodríguez es un contador público certificado con amplia experiencia en el campo financiero. Con sólidos conocimientos en contabilidad, auditoría y planificación financiera, Carlos asesora a empresas y particulares en la gestión eficiente de sus recursos financieros y en la toma de decisiones estratégicas para alcanzar sus objetivos económicos."
+  }
+]
