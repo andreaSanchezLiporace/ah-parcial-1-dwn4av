@@ -19,7 +19,11 @@ function getProjects(req, res){
         })
 }
 
-// Funcion para cargar un nuevo proyecto
+/**
+ * Inserto un nuevo proyecto en la base de datos con el clienteId al que pertenece.
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP.
+ */
 function insertOneProject(req, res){
     const project = {
         name: req.body.name,
@@ -37,7 +41,11 @@ function insertOneProject(req, res){
         })
 }
 
-// Función para reemplazar/modificar informacion completa de un proyecto
+/**
+ * Reemplazo la información completa de un proyecto existente.
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP.
+ */
 function replaceOneProject(req, res) {
     // Guardo el id del projecto que viene dado en la url
     const idProject = req.params.idProject
@@ -63,7 +71,11 @@ function replaceOneProject(req, res) {
             })
     }
     
-// Función para actualizar alguno de los datos de un proyecto
+/**
+ * Actualiza algunos de los datos de un proyecto existente (los que le paso).
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP.
+ */
 function updateOneProject(req, res) {
     // Guardo el id del projecto que viene dado en la url
     const idProject = req.params.idProject
@@ -100,7 +112,11 @@ function updateOneProject(req, res) {
             })
     }
 
-// Función para eliminar un proyect de la BBDD 
+/**
+ * Elimina un proyecto de la base de datos.
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP.
+ */ 
 function deleteOneProject(req, res) {
     const idProject = req.params.idProject
     service.deleteOneProject(idProject)
@@ -114,6 +130,7 @@ function deleteOneProject(req, res) {
         })
 }
 
+/** Exporto las funciones */
 export {
     getProjects,
     insertOneProject,

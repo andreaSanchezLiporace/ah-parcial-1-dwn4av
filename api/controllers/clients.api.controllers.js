@@ -17,7 +17,11 @@ function getClients(req, res){
         })
 }
 
-// Funcion para cargar un nuevo proyecto
+/**
+ * Inserto un nuevo cliente en la base de datos.
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP.
+ */
 function insertOneClient(req, res){
     const client = {
         nombre: req.body.nombre,
@@ -31,9 +35,13 @@ function insertOneClient(req, res){
         })
 }
 
+/**
+ * Obtengo los proyectos de un cliente específico.
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP.
+ */
 function getClientProjects(req, res){
     const clientId = req.params.idClient;
-    console.log(clientId);
     service.getClientProjects (clientId)
     .then(function(projects){
         if (projects) {
@@ -44,6 +52,7 @@ function getClientProjects(req, res){
     })
 }
 
+/** Exporto las funciones */
 export {
     getClients,
     insertOneClient,

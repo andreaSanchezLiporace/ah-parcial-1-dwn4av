@@ -43,7 +43,7 @@ async function getClientProjects(clientId) {
     return db.collection("Projects").find({ clientId: clientId }).toArray();
 }
 
-// Exporto todas las funciones para poder usarlas en el programa
+/** Exporto las funciones */
 export {
     getClients,
     insertOneClient,

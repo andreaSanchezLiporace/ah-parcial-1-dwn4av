@@ -1,12 +1,15 @@
-/*
-    En este archivo contiene todas las funciones que devuelven a las vistas la información de los clientes
+/**
+ * Este archivo contiene todas las funciones que devuelven la información de los clientes al front
+ * Importo los módulos completos de servicios y de las vistas
 */
-
-// Importo el modulo de servicios y el de las vistas, ya que ambos son precisos para el correcto funcionamiento de estos controladores
 import * as service from '../services/clients.services.js'
 import * as view from '../views/clients.views.js'
 
-// Obtengo todos los proyectos
+/**
+ * Obtiene todos los clientes.
+ * @param {Object} req - Objeto de solicitud HTTP.
+ * @param {Object} res - Objeto de respuesta HTTP para enviar la respuesta al cliente.
+ */
 function getClients(req, res){
     // Uso la funcion asincronica que cree en el modulo de servicios
     service.getClients()
@@ -17,7 +20,11 @@ function getClients(req, res){
     )
 }
 
-// Funcion para cargar un nuevo cliente
+/**
+ * Inserto un nuevo cliente en la coleccion de clientes.
+ * @param {Object} req - Objeto de solicitud HTTP con los datos del cliente en el cuerpo.
+ * @param {Object} res - Objeto de respuesta HTTP para enviar la respuesta al cliente.
+ */
 function insertOneClient(req, res){
     const client = {
         nombre: req.body.nombre,
@@ -34,6 +41,7 @@ function insertOneClient(req, res){
         })
 }
 
+/** Exporto las funciones */
 export {
     getClients,
     insertOneClient

@@ -78,7 +78,7 @@ async function deleteOneProject(idProject){
     }
 }
 
-// Exporto todas las funciones para poder usarlas en el programa
+/** Exporto las funciones */
 export {
     getProjects,
     insertOneProject,

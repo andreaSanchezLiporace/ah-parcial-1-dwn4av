@@ -1,5 +1,5 @@
 /**
- * En este archivo contiene todas las funciones que devuelven la información de los proyectos al front
+ * Este archivo contiene todas las funciones que devuelven la información de los proyectos al front
  * Importo los módulos completos de servicios y de las vistas
 */
 import * as service from '../services/projects.services.js'
@@ -21,7 +21,11 @@ function getProjects(req, res){
         })
 }
 
-// Funcion para cargar un nuevo proyecto
+/**
+ * Carga un nuevo proyecto.
+ * @param {Object} req - Objeto de solicitud HTTP con los datos del proyecto en el cuerpo.
+ * @param {Object} res - Objeto de respuesta HTTP para enviar la respuesta al cliente.
+ */
 function insertOneProject(req, res){
     const project = {
         name: req.body.name,
@@ -41,6 +45,11 @@ function insertOneProject(req, res){
         })
 }
 
+/**
+ * Actualiza un proyecto existente.
+ * @param {Object} req - Objeto de solicitud HTTP con los datos actualizados del proyecto en el cuerpo.
+ * @param {Object} res - Objeto de respuesta HTTP para enviar la respuesta al cliente.
+ */
 function updateOneProject(req, res) {
     const id = req.params.idProject
     const project = {
@@ -62,6 +71,11 @@ function updateOneProject(req, res) {
         })
 }
 
+/**
+ * Elimina un proyecto existente.
+ * @param {Object} req - Objeto de solicitud HTTP con los parámetros de la URL, incluyendo el ID del proyecto a eliminar.
+ * @param {Object} res - Objeto de respuesta HTTP para enviar la respuesta al cliente.
+ */
 function deleteOneProject(req, res) {
     const id = req.params.idProject
 
@@ -76,6 +90,7 @@ function deleteOneProject(req, res) {
         })
 }
 
+/** Exporto las funciones */
 export {
     getProjects,
     insertOneProject,
