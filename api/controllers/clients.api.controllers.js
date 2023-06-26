@@ -32,13 +32,14 @@ function insertOneClient(req, res){
 }
 
 function getClientProjects(req, res){
-    const idClient = req.params.idClient;
-    service.getClientProjects (idClient)
+    const clientId = req.params.idClient;
+    console.log(clientId);
+    service.getClientProjects (clientId)
     .then(function(projects){
         if (projects) {
             res.status(200).json(projects);
         } else {
-            res.status(200).json({ idClient: idClient, projects: [] })
+            res.status(200).json({ clientId: idClient })
         }
     })
 }

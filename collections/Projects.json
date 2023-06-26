@@ -5,11 +5,11 @@
         "link": "http://miweb.com/projectoMobile1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-            "php",
-            "vue",
-            "laravel"
+            "javascript",
+            "vue"
         ],
-        "section": "mobile"
+        "section": "mobile",
+        "clientId": "64976735022ec0a4758c92f2"
     },
     {
         "name": "Mobile 2",
@@ -17,38 +17,14 @@
         "link": "http://miweb.com/projectoMobile2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
-            "vue",
-            "laravel"
-        ],
-        "section": "mobile"
-    },
-    {
-        "name": "Mobile 3",
-        "description": "Lorem3.",
-        "link": "http://miweb.com/projectoMobile3.com",
-        "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "php",
-            "vue",
-            "javascript"
-        ],
-        "section": "mobile"
-    },
-    {
-        "name": "Mobile 4",
-        "description": "Lorem4.",
-        "link": "http://miweb.com/projectoMobile4.com",
-        "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "vue",
-            "javascript"
+            "vue"
         ],
         "section": "mobile",
-        "client_id": ""
+        "clientId": "64976735022ec0a4758c92f2"
     },
     {
         "name": "Landing Page 1",
-        "description": "Lorem5.",
+        "description": "Lorem3.",
         "link": "http://miweb.com/projectoLandingPage1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
@@ -57,11 +33,12 @@
             "javascript",
             "bootstrap"
         ],
-        "section": "landing"
+        "section": "landing",
+        "clientId": "64976735022ec0a4758c92f2"
     },
     {
         "name": "Landing Page 2",
-        "description": "Lorem6.",
+        "description": "Lorem4.",
         "link": "http://miweb.com/projectoLandingPage2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
@@ -69,11 +46,12 @@
             "css",
             "javascript"
         ],
-        "section": "landing"
+        "section": "landing",
+        "clientId": "64976735022ec0a4758c92f5"
     },
     {
         "name": "Web App 1",
-        "description": "Lorem7.",
+        "description": "Lorem5.",
         "link": "http://miweb.com/projectoWebApp1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
@@ -81,11 +59,12 @@
             "bootstrap",
             "ajax"
         ],
-        "section": "webapp"
+        "section": "webapp",
+        "clientId": "64976735022ec0a4758c92f3"
     },
     {
         "name": "Web App 2",
-        "description": "Lorem8.",
+        "description": "Lorem6.",
         "link": "http://miweb.com/projectoWebApp2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
@@ -93,11 +72,12 @@
             "bootstrap",
             "ajax"
         ],
-        "section": "webapp"
+        "section": "webapp",
+        "clientId": "64976735022ec0a4758c92f4"
     },
     {
         "name": "E-Commerce 1",
-        "description": "Lorem9.",
+        "description": "Lorem7.",
         "link": "http://miweb.com/projectoEcommerce1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
@@ -106,11 +86,12 @@
             "javascript",
             "bootstrap"
         ],
-        "section": "ecommerce"
+        "section": "ecommerce",
+        "clientId": "64976735022ec0a4758c92f3"
     },
     {
         "name": "E-Commerce 2",
-        "description": "Lorem10.",
+        "description": "Lorem8.",
         "link": "http://miweb.com/projectoEcommerce2.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
@@ -118,40 +99,20 @@
             "css",
             "javascript"
         ],
-        "section": "ecommerce"
+        "section": "ecommerce",
+        "clientId": "64976735022ec0a4758c92f5"
     },
     {
         "name": "Games 1",
-        "description": "Lorem11.",
+        "description": "Lorem9.",
         "link": "http://miweb.com/projectoGames1.com",
         "img": "https://picsum.photos/400/225",
         "technologies": [
             "c",
             "r"
         ],
-        "section": "games"
-    },
-    {
-        "name": "Games 2",
-        "description": "Lorem12.",
-        "link": "http://miweb.com/projectoGames2.com",
-        "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "c",
-            "r"
-        ],
-        "section": "games"
-    },
-    {
-        "name": "Games 3",
-        "description": "Lorem13.",
-        "link": "http://miweb.com/projectoGames3.com",
-        "img": "https://picsum.photos/400/225",
-        "technologies": [
-            "r",
-            "phyton"
-        ],
-        "section": "games"
+        "section": "games",
+        "clientId": "64976735022ec0a4758c92f4"
     },
     {
         "name": "Games 4",
@@ -162,6 +123,7 @@
             "r",
             "phyton"
         ],
-        "section": "games"
+        "section": "games",
+        "clientId": "64976735022ec0a4758c92f6"
     }
 ]
