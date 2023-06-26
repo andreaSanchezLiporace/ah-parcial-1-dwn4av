@@ -86,15 +86,11 @@ API-CLIENTES:
  @route POST /clients/:idClient/projects - Crea un proyecto con la referencia a un cliente:
  - http://localhost:2222/api/clients/64976735022ec0a4758c92f2/projects
    {
-      "name": "Mobile Prueba",
-      "description": "Lorem1.",
-      "link": "http://miweb.com/projectoMobile1.com",
+      "name": "Prueba nuevo proyecto",
+      "description": "Prueba insert proyecto para cliente Librart en sección mobile.",
+      "link": "https://github.com/librart/mobile-prueba",
       "img": "https://picsum.photos/400/225",
-      "technologies": [
-         "php",
-         "vue",
-         "laravel"
-      ],
+      "technologies": ["javascript", "vue"],
       "section": "mobile",
       "clientId": "64976735022ec0a4758c92f2"
-   }
+   },
