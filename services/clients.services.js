@@ -33,9 +33,14 @@ async function insertOneClient(client) {
     return client;
 }
 
+/**
+ * Obtengo todos los proyectos asociados a un cliente específico.
+ * @param {string} clientId - ID del cliente.
+ * @returns {Promise<Array>} - Una promesa que se resuelve con un array de proyectos.
+*/
 async function getClientProjects(clientId) {
     await clientDataBase.connect();
-    return db.collection("Projects").find({ clientId: new ObjectId(clientId) }).toArray();
+    return db.collection("Projects").find({ clientId: clientId }).toArray();
 }
 
 // Exporto todas las funciones para poder usarlas en el programa
