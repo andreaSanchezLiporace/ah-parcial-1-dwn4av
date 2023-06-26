@@ -11,13 +11,13 @@ const route = Router()
 
 /**
  * @route GET /projects - @desc Obtiene todos los proyectos.
- * @route POST /projects - @desc Crea un nuevo proyecto.
+ * @route POST /projects - @desc Crea un nuevo proyecto -> Se paso del lado del cliente para que sea posible crear la referencia del cliente en la coleccion de proyectos
  * @route PUT /projects/:idProject - @desc Reemplaza por completo un proyecto - @param {string} idProject - ID proyecto.
  * @route PATCH /projects/:idProject - @desc Actualiza un dato de un proyecto - @param {string} idProject - ID proyecto.
  * @route DELETE /projects/:idProject - @desc Elimina un proyecto - * @param {string} idProject - ID proyecto.
 */
 route.get('/projects', controller.getProjects)
-route.post('/projects', controller.insertOneProject)
+//route.post('/projects', controller.insertOneProject)
 route.put('/projects/:idProject', controller.replaceOneProject)
 route.patch('/projects/:idProject', controller.updateOneProject)
 route.delete('/projects/:idProject', controller.deleteOneProject)
